@@ -1,0 +1,110 @@
+.contentc_top{
+    background-color: darkgrey;
+    width: 100%;
+    padding: 10px 10px;
+    color: black;
+    font-size: 2em;
+    margin-top: 82px;
+    font-family: 'Raleway';
+}
+
+.contentc1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: -9vh;
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    margin: 0px auto; 
+    width: inherit;
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+ 
+}
+
+
+.container .box{
+    position: relative;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: lightgray;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 300px;
+
+}
+
+
+
+.container .box:nth-child(1)
+{
+    background-color: linear-gradient(45deg,pink,purple);
+}
+.container .box:nth-child(2)
+{
+    background-color:linear-gradient(45deg, red,crimson);
+}
+
+.container .box
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: black;
+    opacity: 0.4;
+    text-decoration: none;
+}
+
+.container .box .ul
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container .box .li
+{ 
+   list-style: none;
+   box-shadow: none;
+   color: rgb(151,151,151);
+   transition: 00.3s ease-in;
+}
+
+.container .box a{
+    color: black;
+    text-decoration: none;
+}
+
+.container .box a:hover{
+    color: rgb(59, 56, 56);
+}
+
+.container .box h2{
+    padding: 10px;
+}
+
+.container .box p{
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .container .box {font-size: 20px;}
+}
+
+@media screen and (min-width:768px)
+{
+    .container .box{font-size: 25px;}
+}
